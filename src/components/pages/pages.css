@@ -1,0 +1,52 @@
+/* ======home page starts ============*/
+.heading
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-container
+{
+    position: relative;
+}
+.home-container h1
+{
+    font-size: 60px;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 8px;
+    text-shadow: 2px 1px 3px #000;
+    position: absolute;
+    left: 35%;
+    top: 40%;
+}
+.home-container img
+{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+/*============ media queries =================*/
+
+@media (max-width:650px) {
+    .home-container h1
+    {
+        left: 25%;
+    }
+}
+
+
+
+
+
+
+
+
+/* ======home page ends ============*/
